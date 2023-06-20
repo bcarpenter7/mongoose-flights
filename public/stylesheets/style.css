@@ -1,6 +1,8 @@
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: azure;
+  color: rgb(30, 29, 29);
 }
 
 a {
@@ -17,8 +19,9 @@ a {
 
 table {
   margin: 0 auto;
-  border-spacing: 2vmin 1vmin;
+  border-spacing: 2vmin 2vmin;
   font-size: 2vmin;
+  text-align: center;
 }
 
 #current-flights {
@@ -27,18 +30,27 @@ table {
 }
 
 #new-parent {
-  /* margin: 0; */
-  /* padding: 2vmin; */
   font-size: 2vmin;
   display: flex;
   flex-direction: row;
   justify-content: center;
-  /* background-color: blue; */
 }
 
 #flight-form {
-  background-color: gray;
-  padding: 3vmin;
+  background-color: rgb(164, 163, 163);
+  box-shadow: 5px 2px 5px rgb(58, 56, 56);
+  padding: 2vmin 6vmin 6vmin 6vmin;
+  margin-top: 10vmin;
+  font-size: 2.5vmin;
+  border-radius: 5px;
+}
+
+#example {
+  background-color: rgb(163, 163, 163);
+  box-shadow: 5px 2px 5px rgb(58, 56, 56);
+  padding: 2vmin 6vmin 6vmin 6vmin;
+  margin-top: 5vmin;
+  font-size: 2vmin;
   border-radius: 5px;
 }
 
@@ -48,8 +60,26 @@ table {
 
 #welcome-message {
   margin: 0 auto;
-  margin-top: 3vmin;
+  margin-top: 15vmin;
   width: 80vmin;
   text-align: center;
   font-size: 4vmin;
+}
+
+select, input, button {
+  font-size: 2.5vmin;
+}
+
+button {
+  background-color: #00B7FF;
+  color: white;
+  border: solid 1px black;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: white;
+  color: #00B7FF;
+  border: solid 1px black;
+  border-radius: 5px;
 }
